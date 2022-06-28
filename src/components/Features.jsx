@@ -29,7 +29,7 @@ const Features = () => {
         {/* Numbered List */}
         <div className="flex flex-col space-y-8 md:w-1/2">
           {features.map((feature, index) => (
-            <Feature key={index} feature={feature} />
+            <Feature key={index} feature={feature} index={index} />
           ))}
         </div>
       </div>
